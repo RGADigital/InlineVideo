@@ -132,7 +132,7 @@ var InlineVideo = function(elem) {
 (function($) {
     $(window).load(function() {
         var iOS = /iPhone|iPod/.test( navigator.userAgent );
-        if(iOS || debug) {
+        if(iOS) {
             
             setTimeout(function() {
                 var videos = $('video[playsinline], video[webkit-playsinline]');
